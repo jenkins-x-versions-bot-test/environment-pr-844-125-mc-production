@@ -1,0 +1,26 @@
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-credential-initializer-n9z5q[0m
+{"level":"warn","ts":1583349643.7688198,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1583349643.769371,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-working-dir-initializer-nvwhp[0m
+{"level":"warn","ts":1583349644.7351222,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1583349644.7361026,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-git-source-jenkins-x-versions-bot-test-env-g78b2-75fs7[0m
+{"level":"warn","ts":1583349651.8385618,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1583349652.9361315,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/***************************/environment-pr-844-125-mc-production.git @ v0.0.1 in path /workspace/source"}
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:0e756043b0d8cc14934bbafdb7cea1cd1e7d5e04
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-validate-git[0m
+Git configured for user: jenkins-x-bot and email jenkins-x@googlegroups.com
+
+Showing logs for build [32mjenkins-x-versions-bot-test-env-g78b2-1[0m stage [32mrelease[0m and container [32mstep-verify-preinstall[0m
+error: please specify 'project' in **-requirements when running  in  batch mode
+[31m
+Pipeline failed on stage 'release' : container 'step-verify-preinstall'. The execution of the pipeline has stopped.[0m
