@@ -8,7 +8,7 @@ cluster:
   gitKind: github
   gitName: github
   gitServer: https://github.com
-  namespace: jx
+  namespace: jx-production
   provider: gke
 environments:
 - gitKind: github
